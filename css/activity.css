@@ -74,3 +74,39 @@ body, html {
           right: 0;
           bottom: 0;
           margin: auto; }
+  .wrap .information {
+    width: 1202px;
+    height: 500px;
+    padding-top: 72px;
+    margin: 0 auto; }
+    .wrap .information .title {
+      padding-left: 355px; }
+      .wrap .information .title img {
+        height: 302px; }
+    .wrap .information .info ul {
+      width: 387px;
+      height: 136px;
+      background: url(../images/active_info_bg.png) no-repeat center;
+      padding-left: 32px;
+      margin-left: 347px; }
+      .wrap .information .info ul li {
+        margin-right: 9px; }
+        .wrap .information .info ul li img {
+          width: 93px; }
+        .wrap .information .info ul li .icon {
+          margin-top: 25px; }
+        .wrap .information .info ul li .code {
+          margin-top: 21px; }
+        .wrap .information .info ul li .xiazai {
+          padding-top: 15px;
+          display: block; }
+        .wrap .information .info ul li .common {
+          width: 129px; }
+        .wrap .information .info ul li .commons {
+          width: 129px; }
+    .wrap .information .info h3 {
+      height: 116px;
+      margin-top: -10px;
+      margin-left: 2px; }
+      .wrap .information .info h3 img {
+        height: 100%; }

@@ -87,5 +87,58 @@ body,html{
             }
         }
     }
-
+    .information{
+        width: 1202px;
+        height:500px;
+        padding-top: 72px;
+        margin:0 auto;
+        .title{
+          
+            padding-left: 355px;
+            img{
+                height:302px;
+            }
+        }
+        .info{
+           
+            ul{
+                 width: 387px;
+                height:136px;
+                background: url(../images/active_info_bg.png) no-repeat center;
+                padding-left: 32px;
+                margin-left: 347px;
+               li{
+                    margin-right: 9px;
+                    img{
+                        width: 93px;
+                    }
+                    .icon{
+                        margin-top: 25px;
+                    }
+                    .code{
+                        margin-top: 21px;
+                    }
+                    .xiazai{
+                        padding-top: 15px;
+                        display: block;
+                        
+                    }
+                    .common{
+                        width:129px;
+                    }
+                    .commons{
+                        width:129px;
+                    }
+                } 
+            } 
+            h3{
+                height:116px;
+                margin-top: -10px;
+                margin-left: 2px;
+                img{
+                    height:100%;
+                }
+            }           
+        }
+    }
 }
