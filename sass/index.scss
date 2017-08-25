@@ -274,6 +274,7 @@ body,html{
                 .role{                
                     img{
                         width: 463px;
+                        height:432px;
                     }
                 }
                 .pagination{
@@ -369,7 +370,7 @@ body,html{
         .bot{
             width: 1200px;
             position: relative;
-            height: 85px;
+            height: 94px;
             top: 42px;
             margin:0 auto;
             text-align: center;
@@ -379,7 +380,7 @@ body,html{
                 bottom: 0;
                 display: block;
                 margin:auto 0;
-                height:85px;
+                height:94px;
                 width: 106px;
                 cursor: pointer;
                 vertical-align: middle;
@@ -400,26 +401,51 @@ body,html{
             .next{
                 right: 22px;
             }
-            ul{
-                display: inline-block;
-                li{
-                    width: 76px;
-                    height:76px;
-                    margin:0 16px;
-                    cursor: pointer;
-                    border:3px solid transparent;              
-                    img{
+            .boxs{
+                width: 922px;
+                height:94px;
+                overflow: hidden;
+                position: relative;
+                margin:0 auto;
+                ul{
+                    display: inline-block;
+                    position: absolute;
+                    width: 3688px;
+                    height:94px;
+                    left:0px;
+                    top:6px;
+                    li{
                         width: 76px;
                         height:76px;
+                        margin:0 16px;
+                        cursor: pointer;
+                        border:3px solid transparent;              
+                        img{
+                            width: 76px;
+                            height:76px;
+                        }
                     }
-                }
-                li:hover{
+                    li:hover{
+                        border:3px solid #ffee5c;
+                        border-radius: 38px;
+                        box-shadow: 0 0 10px #ffee5c;
+                        -moz-box-shadow: 0px 0px 10px #ffee5c;
+                    }                   
+                } 
+                .box{
+                    width: 76px;
+                    height:76px;
                     border:3px solid #ffee5c;
                     border-radius: 38px;
                     box-shadow: 0 0 10px #ffee5c;
                     -moz-box-shadow: 0px 0px 10px #ffee5c;
+                    position: absolute;
+                    left:0;
+                    top:6px;
+                    margin:0 16px;
                 }
             }
+            
         }
     }
 }

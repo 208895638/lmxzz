@@ -198,7 +198,8 @@ body, html {
       left: 385px;
       top: -14px; }
       .roles .con .top .rolesCen .role img {
-        width: 463px; }
+        width: 463px;
+        height: 432px; }
       .roles .con .top .rolesCen .pagination {
         text-align: center;
         margin-top: -70px; }
@@ -268,7 +269,7 @@ body, html {
     .roles .con .bot {
       width: 1200px;
       position: relative;
-      height: 85px;
+      height: 94px;
       top: 42px;
       margin: 0 auto;
       text-align: center; }
@@ -278,7 +279,7 @@ body, html {
         bottom: 0;
         display: block;
         margin: auto 0;
-        height: 85px;
+        height: 94px;
         width: 106px;
         cursor: pointer;
         vertical-align: middle; }
@@ -295,22 +296,44 @@ body, html {
         left: 22px; }
       .roles .con .bot .next {
         right: 22px; }
-      .roles .con .bot ul {
-        display: inline-block; }
-        .roles .con .bot ul li {
+      .roles .con .bot .boxs {
+        width: 922px;
+        height: 94px;
+        overflow: hidden;
+        position: relative;
+        margin: 0 auto; }
+        .roles .con .bot .boxs ul {
+          display: inline-block;
+          position: absolute;
+          width: 3688px;
+          height: 94px;
+          left: 0px;
+          top: 6px; }
+          .roles .con .bot .boxs ul li {
+            width: 76px;
+            height: 76px;
+            margin: 0 16px;
+            cursor: pointer;
+            border: 3px solid transparent; }
+            .roles .con .bot .boxs ul li img {
+              width: 76px;
+              height: 76px; }
+          .roles .con .bot .boxs ul li:hover {
+            border: 3px solid #ffee5c;
+            border-radius: 38px;
+            box-shadow: 0 0 10px #ffee5c;
+            -moz-box-shadow: 0px 0px 10px #ffee5c; }
+        .roles .con .bot .boxs .box {
           width: 76px;
           height: 76px;
-          margin: 0 16px;
-          cursor: pointer;
-          border: 3px solid transparent; }
-          .roles .con .bot ul li img {
-            width: 76px;
-            height: 76px; }
-        .roles .con .bot ul li:hover {
           border: 3px solid #ffee5c;
           border-radius: 38px;
           box-shadow: 0 0 10px #ffee5c;
-          -moz-box-shadow: 0px 0px 10px #ffee5c; }
+          -moz-box-shadow: 0px 0px 10px #ffee5c;
+          position: absolute;
+          left: 0;
+          top: 6px;
+          margin: 0 16px; }
 
 .part3 {
   height: 1268px;
